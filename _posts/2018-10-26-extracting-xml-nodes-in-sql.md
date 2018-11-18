@@ -18,4 +18,4 @@ Hooray!
 
 ![can't find image :'(]({{ site.baseurl }}/_assets/extracting-xml-sql.png)
 
-[<img src="{{ site.baseurl }}/_assets/extracting-xml-sql.png"]
+![<img src="{{ site.baseurl }}/_assets/extracting-xml-sql.png">]
