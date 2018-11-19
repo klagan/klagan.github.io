@@ -298,7 +298,7 @@ nav {
     font-size: 15px;
     color: $lightGray;
     margin-left: 20px;
-    @extend %clearfix;
+    @extend %clearfix !optional;
 }
 
 .footer-col {
