@@ -1,36 +1,44 @@
-	</main>
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="site-footer">
 
-  <div class="wrapper">
+	<div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+		<h2 class="footer-heading">{{ site.title }} • <a href="{{ site.baseurl }}/table-of-contents">Table of Contents</a></h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
+		<div class="footer-col-wrapper">
+			<div class="footer-col footer-col-1">
+				<ul class="contact-list">
+					<li>{{ site.title }}</li>
+					<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+				</ul>
+			</div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
+			<div class="footer-col footer-col-2">
+				<ul class="social-media-list">
+					{% if site.github_username %}
+					<li>
+						{% include icon-github.html username=site.github_username %}
+					</li>
+					{% endif %}
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
+					{% if site.instagram_username %}
+					<li>
+						{% include icon-instagram.html username=site.instagram_username %}
+					</li>
+					{% endif %}
 
-  </div>
+					{% if site.twitter_username %}
+					<li>
+						{% include icon-twitter.html username=site.twitter_username %}
+					</li>
+					{% endif %}
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-3">
+				<p>{{ site.description }}</p>
+			</div>
+		</div>
+
+	</div>
 
 </footer>
