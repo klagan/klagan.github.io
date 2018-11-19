@@ -322,7 +322,7 @@ nav {
     
 }
 
-@include media-query($on-laptop) {
+@include laptop {
     .footer-col-1,
     .footer-col-2 {
         width: 50%;
@@ -335,7 +335,7 @@ nav {
     }
 }
 
-@include media-query($on-palm) {
+@include mobile {
     .footer-col {
         float: none;
         width: 100%;
