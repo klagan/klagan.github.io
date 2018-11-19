@@ -322,18 +322,7 @@ nav {
     
 }
 
-@include laptop {
-    .footer-col-1,
-    .footer-col-2 {
-        width: 50%;
-        
-    }
 
-    .footer-col-3 {
-       width:100%;
-      
-    }
-}
 
 @include mobile {
     .footer-col {
