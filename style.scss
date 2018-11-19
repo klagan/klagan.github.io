@@ -278,7 +278,9 @@ nav {
     border-top: 1px solid $lightGray;
     padding: 0.1em 1em;
 }
-
+.site-footer p{
+	color:$darkerGray;
+}
 .footer-heading {
     font-size: 18px;
     margin-bottom: 10px;
