@@ -12,7 +12,7 @@ layout: default
 	<span>Posted on </span><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
 					</div>
   <div class="entry-content">
-      {{ post.excerpt }}
+      {{ post.excerpt }}{{ post.summary }}
        <p>
 	            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
 	          </p>
