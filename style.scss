@@ -334,7 +334,22 @@ nav {
     }
 }
 
+/**
+ * Icons
+ */
+.icon {
 
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $darkerGray;
+        }
+    }
+}
 /*
 .wrapper-footer {
   margin-top: 50px;
