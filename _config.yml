@@ -1,11 +1,13 @@
 #
 # This file contains configuration flags to customize your site
 #
+title:kam.blog()
+baseurl:/klagan
 
 # Name of your site (displayed in the header)
 name: kam.lagan.blog()
-title:kam.blog()
-baseurl:"/klagan"
+
+
 
 # Short bio or description (displayed in the header)
 description: somewhere in software
