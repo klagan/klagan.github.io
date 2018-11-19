@@ -36,6 +36,10 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+      
+    <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>  
     </div>
 
     <div class="wrapper-footer">
