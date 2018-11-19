@@ -16,7 +16,12 @@ layout: default
        <p>
 	            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
 	          </p>
-	    <span class="entry-tags"><a href="{{ site.url }}/tags#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a></span>
+	    <span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
   </div><!-- /.entry-content -->
 
       <div class="entry">
