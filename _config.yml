@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: kam.lagan.blog();
+name: kam.lagan.blog()
 title:kam.blog()
 baseurl:"/klagan"
 
