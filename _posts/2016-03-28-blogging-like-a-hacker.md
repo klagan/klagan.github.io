@@ -1,7 +1,6 @@
 ---
 layout: post
 title: blogging like a hacker
-description:this is a description of the page
 published: false
 ---
 
