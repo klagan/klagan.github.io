@@ -1,7 +1,7 @@
 ---
 layout: post
 title: blogging like a hacker
-description_text:this is a description of the page
+description:this is a description of the page
 published: false
 ---
 
