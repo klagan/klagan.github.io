@@ -1,7 +1,7 @@
 ---
 summary: this is where you put the summary
 published: true
-tags: sql
+tags: [sql]
 ---
 I always run into this issue where I want to extract values or nodes from xml stored in a database. 
 
