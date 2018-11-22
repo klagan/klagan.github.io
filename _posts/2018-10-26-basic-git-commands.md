@@ -27,6 +27,16 @@ git push origin/<branch-name>
 git checkout <branch-name>
 ```
 
+### List current branch
+```
+git branch
+```
+
+### List branches local and remote
+```
+git branch -a
+```
+
 ### Get code from the server for the current branch
 ```
 git pull
