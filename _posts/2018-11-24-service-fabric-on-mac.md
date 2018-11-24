@@ -10,7 +10,7 @@ The command '/bin/sh -c locale-gen en_US.UTF-8' returned a non-zero code: 127
 
 After much gnashing of teeth I edited the script from ![Microsoft]()
 
-```
+```csharp
 FROM microsoft/service-fabric-onebox
 WORKDIR /home/ClusterDeployer
 RUN ./setup.sh
@@ -31,7 +31,7 @@ CMD /etc/init.d/ssh start && ./run.sh
 
 to this
 
-```
+```csharp
 FROM microsoft/service-fabric-onebox
 WORKDIR /home/ClusterDeployer
 
