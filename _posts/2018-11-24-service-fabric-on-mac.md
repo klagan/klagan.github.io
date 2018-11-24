@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## Service Fabric on Mac - "The command '/bin/sh -c locale-gen en_US.UTF-8' returned a non-zero code: 127"
+## "The command '/bin/sh -c locale-gen en_US.UTF-8' returned a non-zero code: 127"
 
 I recently ran into this error message:
 ```csharp
