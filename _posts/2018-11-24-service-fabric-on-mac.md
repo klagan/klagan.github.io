@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Service Fabric on Mac - "The command '/bin/sh -c locale-gen en_US.UTF-8' returned a non-zero code: 127"
 
