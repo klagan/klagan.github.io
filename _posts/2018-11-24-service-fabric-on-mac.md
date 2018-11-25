@@ -54,3 +54,17 @@ CMD /etc/init.d/ssh start && ./run.sh
 ```
 
 Solved my issue!
+
+**Edit:**
+I ran into further issues as I progressed through the installation for ```sfctl```.
+
+I solved it by running the following commands in sequence:
+
+```csharp 
+#i was missing these three packages to make the fourth command work
+sudo easy_install pip
+sudo easy_install nose
+sudo easy_install tornado
+
+pip install -I sfctl==1.1.0
+```
