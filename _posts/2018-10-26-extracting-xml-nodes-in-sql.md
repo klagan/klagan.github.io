@@ -17,4 +17,4 @@ SELECT @xml.value('(root/name)[1]', 'NVARCHAR(MAX)')
 Hooray!
 
 
-![can't find image :'(]({{ site.baseurl }}/_assets/extracting-xml-sql.png)
+[can't find image :'(]({{ site.baseurl }}/_assets/extracting-xml-sql.png)
