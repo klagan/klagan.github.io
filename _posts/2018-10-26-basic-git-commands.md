@@ -42,10 +42,12 @@ git branch -a
 git pull
 ```
 
-### Get metadata about repository
+### Get metadata/information about repository
 This is useful for determining how out of alignment your local is with the server
 ```
 git fetch
+git diff
+git status
 ```
 
 ### Clone a repository
