@@ -62,3 +62,13 @@ git pull
 git checkout <branch-name>
 git merge master
 ```
+
+### Unstage changes (ie: undo a `git add .`)
+```powershell
+git reset 
+```
+
+### Revert uncommitted local changes
+```
+git checkout .
+```
