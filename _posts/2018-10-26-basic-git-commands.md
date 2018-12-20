@@ -17,9 +17,9 @@ git checkout -b <branch-name>
 git commit -m <comments> 
 ```
 
-### Commit changes to server
+### Push changes to server from a new local branch
 ```
-git push origin/<branch-name>
+git push origin <branch-name>
 ```
 
 ### Get a branch from server
