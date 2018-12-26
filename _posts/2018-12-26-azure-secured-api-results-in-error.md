@@ -1,5 +1,6 @@
 ---
 published: true
+tags: azure
 ---
 ## `System.InvalidOperationException: 'Invalid control character in header: 0x0D'`
 
