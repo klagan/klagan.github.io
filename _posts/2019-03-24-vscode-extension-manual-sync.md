@@ -11,18 +11,25 @@ I needed a way to fix this.
 
 Turns out it is three steps (for Apple Mac anyway):
 
-1. Install `code` command
+---
+
+## one
+Install `code` command
+
 I didnt have this installed which is why I wasnt able to run the command on step 2.
 
-` 'code' is not recognized as an internal or external command ` 
+	` 'code' is not recognized as an internal or external command ` 
 
-Your OS can not find the VS Code binary code on its path. The VS Code Windows and Linux installations should have installed VS Code on your path. Try uninstalling and reinstalling VS Code. If code is still not found, consult the platform specific setup topics for Windows and Linux.
+Your OS can not find the VS Code binary code on its path. The VS Code Windows and Linux 	installations should have installed VS Code on your path. Try uninstalling and reinstalling VS Code. If code is still not found, consult the platform specific setup topics for Windows and Linux.
 
 On macOS, you need to manually run the Shell Command: Install 'code' command in PATH command (available through the Command Palette ⇧⌘P). Consult the macOS specific setup topic for details.
 
 [source](https://code.visualstudio.com/docs/editor/command-line#_common-questions)
 
-2. Run: `code --list-extensions | xargs -L 1 echo code --install-extension`
+---
+
+## two
+Run: `code --list-extensions | xargs -L 1 echo code --install-extension`
 
 sample output:
 ```csharp
@@ -83,4 +90,9 @@ code --install-extension vsciot-vscode.azure-iot-toolkit
 code --install-extension vsciot-vscode.vscode-arduino
 code --install-extension vsciot-vscode.vscode-iot-workbench
 ```
-3. Now I **think** you just run these commands on the destination machine.  I will try tomorrow and see what happens.
+---
+
+## three 
+Now I **think** you just run these commands on the destination machine.  I will try tomorrow and see what happens.
+
+---
