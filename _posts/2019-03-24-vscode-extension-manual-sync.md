@@ -14,7 +14,7 @@ Turns out it is three steps (for Apple Mac anyway):
 1. Install `code` command
 I didnt have this installed which is why I wasnt able to run the command on step 2.
 
-> 'code' is not recognized as an internal or external command
+` 'code' is not recognized as an internal or external command ` 
 
 Your OS can not find the VS Code binary code on its path. The VS Code Windows and Linux installations should have installed VS Code on your path. Try uninstalling and reinstalling VS Code. If code is still not found, consult the platform specific setup topics for Windows and Linux.
 
