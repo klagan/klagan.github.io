@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Exporting VSCode extensions
 Visual Studio Code does not synchronise your settings between machines, which isn't a bad thing but is a bit of a pain when you use different machines and they are not quite the same.
